@@ -16,7 +16,7 @@ public class BootProj08InjectingSpecailValuesToSpringBeanPropertiesApplication {
 	ApplicationContext ctx=	SpringApplication.run(BootProj08InjectingSpecailValuesToSpringBeanPropertiesApplication.class, args);
 	//get Spring Bean class object
 	Employee emp=ctx.getBean("emp",Employee.class);
-	System.out.println("Emp detials ::\n"+emp);
+	System.out.println("Emp detials :: \n"+emp+"\n");
 	
 	((ConfigurableApplicationContext) ctx).close();
 	}
