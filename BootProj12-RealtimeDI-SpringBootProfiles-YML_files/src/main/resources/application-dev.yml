@@ -1,0 +1,17 @@
+# spring.application.name=BootProj04-RealtimeDI-RealtimeStrategyDP
+
+# DataSource for MYSQL
+#jdbc properties
+
+# MySQL Connection Properties 
+# for dev.profile
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/campusx
+    dbcp2:
+      min-idle: 10
+      max-total: 100
+    type: org.apache.commons.dbcp2.BasicDataSource
+    password: Shoiab@123

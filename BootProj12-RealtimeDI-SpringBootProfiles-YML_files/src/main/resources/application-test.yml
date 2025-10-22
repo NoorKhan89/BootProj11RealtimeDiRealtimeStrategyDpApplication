@@ -1,0 +1,17 @@
+# spring.application.name=BootProj04-RealtimeDI-RealtimeStrategyDP
+
+# DataSource for MYSQL
+#jdbc properties
+
+# for test profiles
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/campusx
+    type: com.mchange.v2.c3p0.ComboPooledDataSource.class
+    password: Shoiab@123
+c3p0:
+  max-total: 100
+  min-idle: 10

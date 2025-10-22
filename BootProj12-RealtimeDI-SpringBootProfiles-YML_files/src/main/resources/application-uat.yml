@@ -1,0 +1,15 @@
+# spring.application.name=BootProj04-RealtimeDI-RealtimeStrategyDP
+
+# DataSource for MYSQL
+#jdbc properties
+
+# for uat prolfiles
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/campusx
+    password: Shoiab@123
+  jpa:
+    hibernate:
+      ddl-auto: update
